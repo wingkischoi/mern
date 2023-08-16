@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let User = require('/Users/wingki/Desktop/CSIS3380/MERNcopy/mern/backend/models/users.model.js');
+let User = require('../models/users.model');
 
 router.route('/').get((req, res) => {
   User.find()
